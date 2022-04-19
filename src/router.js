@@ -3,10 +3,10 @@ import {
   createWebHistory
 } from 'vue-router';
 // import Home from '../views/MainPage.vue'
-const MainPage = () => import('../views/MainPage.vue');
-const About = () => import('../views/About.vue');
-const Portfolio = () => import('../views/Portfolio.vue');
-const Contact = () => import('../views/Contact.vue');
+const MainPage = () => import('./views/MainPage.vue');
+const About = () => import('./views/About.vue');
+const Portfolio = () => import('./views/Portfolio.vue');
+const Contact = () => import('./views/Contact.vue');
 
 
 const router = createRouter({
