@@ -15,7 +15,7 @@ const router = createRouter({
         {
           path: '/',
           component: MainPage,
-          alias: '/home'
+          alias: '/michiroon'
         },
         {
           path: '/about',
