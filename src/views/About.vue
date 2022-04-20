@@ -6,6 +6,7 @@
         <div class="image">
           <img src="../assets/michi.png" alt="Michi" />
         </div>
+        
       </base-card>
       <base-card>
         <div class="p1">

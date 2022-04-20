@@ -2,7 +2,7 @@
 
   <the-nav></the-nav>
   
-  
+
   <router-view />
   
   <the-footer></the-footer>

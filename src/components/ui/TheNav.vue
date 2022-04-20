@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="logo">
-      <a href="/"> Michiroon </a>
+      <router-link to="/"><img src="./michi.png" alt="Michi" /></router-link>
     </div>
     <nav>
       <ul>
@@ -19,6 +19,7 @@
         </li>
       </ul>
     </nav>
+
     
   </header>
 </template>
@@ -56,12 +57,27 @@ header a {
 .logo{
   float:left;
   padding: 50px;
+  
+  
+  
+  
+}
+img {
+  height: 150px;
+  width: auto;
+  
+  
+  
+  
+  
 }
 a:active,
-a:hover,
-a.router-link-active {
-  border: 1px solid #ffb825;
+a:hover {
+  
 }
+/* a.router-link-active {
+  border: 1px solid #ffb825;
+} */
 header nav{
     display: flex;
 }

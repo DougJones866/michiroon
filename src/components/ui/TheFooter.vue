@@ -6,6 +6,7 @@
         <li><a href="https://www.instagram.com/michiroon/">Instagram</a></li>
         <li><a href="https://michiroon.gumroad.com/">Gumroad</a></li>
       </ul>
+      
     </div>
     <div class="copyright">
       <h3>© 2021 by Michiroon</h3>
