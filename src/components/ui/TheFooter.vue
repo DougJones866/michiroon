@@ -2,9 +2,9 @@
   <div class="footer">
     <div class="links">
       <ul>
-        <li><a href="https://twitter.com/Michiroon">Twitter</a></li>
-        <li><a href="https://www.instagram.com/michiroon/">Instagram</a></li>
-        <li><a href="https://michiroon.gumroad.com/">Gumroad</a></li>
+        <li><a href="https://twitter.com/Michiroon"><fa :icon="['fab', 'twitter']" /></a></li>
+        <li><a href="https://www.instagram.com/michiroon/"><fa :icon="['fab', 'instagram']" /></a></li>
+        <li><a href="https://michiroon.gumroad.com/"><fa icon="g" /></a></li>
       </ul>
       
     </div>
@@ -47,6 +47,11 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+.fa {
+size:10px;
+}
+
 
 a:active,
 a:hover,
