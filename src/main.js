@@ -8,10 +8,15 @@ import { faTwitter , faInstagram } from '@fortawesome/free-brands-svg-icons'
 import TheNav from './components/ui/TheNav.vue'
 import TheFooter from './components/ui/TheFooter.vue'
 import BaseCard from './components/ui/BaseCard.vue'
+import Marquee from './components/ui/Marquee.vue'
 import ContactForm from './components/ContactForm.vue'
+import Vue3Marquee from 'vue3-marquee'
+import 'vue3-marquee/dist/style.css'
+
 
 const app = createApp(App)
 app.use(router);
+app.use(Vue3Marquee)
 library.add(fas, faTwitter, faInstagram)
 
 
@@ -20,5 +25,7 @@ app.component('the-nav', TheNav);
 app.component('the-footer', TheFooter);
 app.component('base-card', BaseCard);
 app.component('contact-form', ContactForm);
+app.component('marquee', Marquee);
+
 
 app.mount('#app');

@@ -16,7 +16,8 @@
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.14",
-    "vue-silentbox": "^2.4.5"
+    "vue-silentbox": "^2.4.5",
+    "vue3-marquee": "^3.0.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",

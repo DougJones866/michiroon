@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d210c47"],{b8fa:function(n,c,t){"use strict";t.r(c);var e=t("f2bf"),r=Object(e["g"])("h1",null,"Contact Me!",-1);function a(n,c,t,a,b,o){var u=Object(e["y"])("contact-form");return Object(e["r"])(),Object(e["f"])(e["a"],null,[r,Object(e["i"])(u)],64)}var b={},o=t("6b0d"),u=t.n(o);const f=u()(b,[["render",a]]);c["default"]=f}}]);
-//# sourceMappingURL=chunk-2d210c47.c059cfa2.js.map
