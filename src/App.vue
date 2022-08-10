@@ -17,6 +17,10 @@ export default {
 </script>
 
 <style>
+
+* {
+    box-sizing: border-box;
+}
 body {
   margin: 0px;
   /* background-image: url('assets/Honeycomb.png'); */

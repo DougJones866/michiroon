@@ -5,11 +5,11 @@
         <li><a href="https://twitter.com/Michiroon"><fa :icon="['fab', 'twitter']" /></a></li>
         <li><a href="https://www.instagram.com/michiroon/"><fa :icon="['fab', 'instagram']" /></a></li>
         <li><a href="https://michiroon.gumroad.com/"><fa icon="g" /></a></li>
-      </ul>
-      
-    </div>
     <div class="copyright">
       <h3>© 2021 by Michiroon</h3>
+    </div>
+      </ul>
+      
     </div>
   </div>
 </template>
@@ -61,5 +61,6 @@ a.router-link-active {
 
 .copyright {
   color:black;
+  
 }
 </style>

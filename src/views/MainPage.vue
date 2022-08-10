@@ -4,15 +4,26 @@
   <h2>I'm a professional illustrator</h2>
   
   </base-card>
-  <marquee />
+<div class="imgCard">
+  <examples />
+
+  </div>
+  
   
 </template>
 
 <script>
 
-export default {};
+export default {
+  
+  };
 </script>
 
 
 <style scoped>
+
+.imgCard {
+  margin-bottom: 50px;
+}
+
 </style>

@@ -10,6 +10,8 @@ import TheFooter from './components/ui/TheFooter.vue'
 import BaseCard from './components/ui/BaseCard.vue'
 import Marquee from './components/ui/Marquee.vue'
 import ContactForm from './components/ContactForm.vue'
+import ImgCard from './components/ImgCard'
+import Examples from './components/Examples'
 import Vue3Marquee from 'vue3-marquee'
 import 'vue3-marquee/dist/style.css'
 
@@ -26,6 +28,10 @@ app.component('the-footer', TheFooter);
 app.component('base-card', BaseCard);
 app.component('contact-form', ContactForm);
 app.component('marquee', Marquee);
+app.component('examples', Examples);
+app.component('img-card', ImgCard);
+
+
 
 
 app.mount('#app');
