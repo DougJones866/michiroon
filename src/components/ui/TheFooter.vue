@@ -19,17 +19,18 @@
 
 .footer {
   width: 100%;
-  height: 3rem;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
   border-top: none 1px;
   background-color: #e0900e;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
-  display: block;
   padding:10px;
+  margin-top:50px;
+  
 }
 a {
   text-decoration: none;

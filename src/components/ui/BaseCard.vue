@@ -8,10 +8,17 @@
 .card {
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  padding: 1rem;
-  margin: 2rem auto;
-  max-width: 40rem;
+  padding-top: 100px;
+  margin: -15px auto;
+  max-width: 1400px;
   background-color: rgba(220, 196, 164, 0.6 );
+    z-index: -1;
+  position:relative;
+  display:flex;
+  
+  
+
+  
  
 }
 </style>

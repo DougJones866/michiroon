@@ -20,6 +20,7 @@ export default {
 
 * {
     box-sizing: border-box;
+    font-family: "ccurbanbarbariangiantregular", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 body {
   margin: 0px;
@@ -43,4 +44,6 @@ body {
 h1 {
   color: #db6f02;
 }
+
+
 </style>
