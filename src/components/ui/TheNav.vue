@@ -40,7 +40,6 @@ header {
   flex-direction: row;
   justify-content: space-around;
 }
-
 .container {
   margin-bottom: 10px;
   display: inline-flex;
@@ -48,7 +47,6 @@ header {
 nav {
   
   align-items: center;
-
   margin: 20px;
 }
 .logo {

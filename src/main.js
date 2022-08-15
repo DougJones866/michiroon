@@ -15,6 +15,7 @@ import ImgCard from './components/ImgCard'
 import Examples from './components/Examples'
 import Vue3Marquee from 'vue3-marquee'
 import 'vue3-marquee/dist/style.css'
+import BlogEntry from './components/BlogEntry.vue'
 
 
 const app = createApp(App)
@@ -28,6 +29,7 @@ app.component('the-nav', TheNav);
 app.component('the-footer', TheFooter);
 app.component('base-card', BaseCard);
 app.component('base-card-2', BaseCard2);
+app.component('blog-entry', BlogEntry);
 
 app.component('contact-form', ContactForm);
 app.component('marquee', Marquee);
