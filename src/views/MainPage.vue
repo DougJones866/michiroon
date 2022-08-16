@@ -49,7 +49,7 @@ export default {
 
 <style scoped>
 .mainCard {
-  display: inline;
+  margin: 15px;
 }
 
 
@@ -62,6 +62,7 @@ export default {
 
 .info {
   display: inline;
+  
 }
 
 
@@ -91,8 +92,8 @@ export default {
   border-style: solid;
   border-color: #8e4200;
   border-width: 10px;
-  margin: 15px;
-  margin-left: 50px;
+  
+  
   
 }
 </style>

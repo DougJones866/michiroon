@@ -15,10 +15,9 @@
   border-top-style: solid;
   border-width: 15px;
   border-color: #8e4200;
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
   width: 100%;
 }
 </style>
