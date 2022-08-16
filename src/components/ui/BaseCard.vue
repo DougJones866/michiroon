@@ -14,7 +14,10 @@
   background-color: rgba(220, 196, 164, 0.6 );
     z-index: -1;
   position:relative;
-  display:flex;
+  display: inline-flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   
   
 

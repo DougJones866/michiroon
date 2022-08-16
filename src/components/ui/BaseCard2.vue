@@ -13,16 +13,12 @@
   background-color: #e0900e;
   border-bottom-style: solid;
   border-top-style: solid;
-  border-width:15px;
-  border-color: #8e4200;;
+  border-width: 15px;
+  border-color: #8e4200;
   display: inline-flex;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   width: 100%;
-  
-  
-  
- 
 }
 </style>

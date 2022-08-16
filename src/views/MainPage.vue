@@ -1,19 +1,25 @@
 <template>
   <base-card-2 class="card2">
-  <div class="mainCard">
-    <h1>Hello I'm Michiroon!</h1>
-    <h2>I'm a professional illustrator</h2>
+    <div class="mainCard">
+      <h1>Hello I'm Michiroon!</h1>
+      <h2>I'm a professional illustrator</h2>
     </div>
-  <div class="image">
-          <img class="mainImage" src="../assets/michi.png" alt="Michi" />
-        </div>
+    <div class="image">
+      <img class="mainImage" src="../assets/images/panel.jpg" alt="Michi" />
+    </div>
   </base-card-2>
   <base-card>
-    
-    <blog-entry v-for="entry in entries" :key="entry.id" :id="entry.id" :title="entry.title" :date="entry.date" :description="entry.description" />
-      <div class="image2">
-      <img class="newImage" src="../assets/images/panel.jpg"/>
-      </div>
+    <blog-entry
+      v-for="entry in entries"
+      :key="entry.id"
+      :id="entry.id"
+      :title="entry.title"
+      :date="entry.date"
+      :description="entry.description"
+    />
+    <div class="image2">
+      <img class="newImage" src="../assets/michi.png" />
+    </div>
   </base-card>
   <!-- <div class="imgCard">
   <examples />
@@ -31,28 +37,25 @@ export default {
           id: "test",
           title: "This is a test entry",
           date: "Aug 4th 2022",
-          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ut tellus elementum sagittis. Ornare lectus sit amet est.",
+          description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ut tellus elementum sagittis. Ornare lectus sit amet est.",
         },
       ],
-    }
-  }
+    };
+  },
 };
 </script>
 
 
 <style scoped>
-
-
-.mainCard{
+.mainCard {
   display: inline;
 }
 
-.imgCard {
-  margin-bottom: 50px;
-}
+
 
 .entry {
-  max-width: 500px;
+  max-width: 700px;
   margin: 15px;
   padding: 15px;
 }
@@ -61,29 +64,35 @@ export default {
   display: inline;
 }
 
-.image {
-  border-style:solid;
-  border-color: #8e4200;
-  background-color: rgba(220, 196, 164, 0.6 );
-  margin: 15px;
-  margin-left: 50px;
 
-}
 
-.image2{
-  border-style:solid;
+.image2 {
+  border-style: solid;
   border-color: #8e4200;
+  margin: 50px;
+  border-style: solid;
+  border-color: #8e4200;
+  border-width: 10px;
 }
 .newImage {
- 
-  
-  max-width: 100%;
+  max-width: 250px;
   height: auto;
   display: inline;
+  
+}
+
+.image {
+  width: 600px;
 }
 
 .mainImage {
-  max-width: 250px;
+  max-width: 100%;
   height: auto;
+  border-style: solid;
+  border-color: #8e4200;
+  border-width: 10px;
+  margin: 15px;
+  margin-left: 50px;
+  
 }
 </style>
