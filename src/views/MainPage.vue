@@ -5,7 +5,7 @@
       <h2>I'm a professional illustrator</h2>
     </div>
     <div class="image">
-      <img class="mainImage" src="../assets/images/panel.jpg" alt="Michi" />
+      <img class="mainImage" src="../assets/images/main.jpg" alt="Michi" />
     </div>
   </base-card-2>
   <base-card>
@@ -18,7 +18,7 @@
       :description="entry.description"
     />
     <div class="image2">
-      <img class="newImage" src="../assets/michi.png" />
+      <img class="newImage" src="../assets/images/panel.jpg" />
     </div>
   </base-card>
   <!-- <div class="imgCard">
@@ -68,14 +68,12 @@ export default {
 
 
 .image2 {
-  border-style: solid;
-  border-color: #8e4200;
   margin: 50px;
+}
+.newImage {
   border-style: solid;
   border-color: #8e4200;
   border-width: 10px;
-}
-.newImage {
   max-width: 250px;
   height: auto;
   display: inline;

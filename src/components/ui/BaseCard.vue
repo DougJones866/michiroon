@@ -11,7 +11,7 @@
   padding-top: 100px;
   margin: -15px auto;
   max-width: 1400px;
-  background-color: rgba(220, 196, 164, 0.6 );
+  background-color: rgba(220, 196, 164 );
     z-index: -1;
   position:relative;
   display: inline-flex;

@@ -23,12 +23,14 @@ export default {
     font-family: "ccurbanbarbariangiantregular", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 body {
+  background-repeat: repeat;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('assets/honeycomb.jpg');
   margin: 0px;
-  /* background-image: url('assets/Honeycomb.png'); */
-  
   background-color: #FFFDDE;
   
 }
+
+
 #app {
   font-family: "Courier New", Courier, monospace;
   -webkit-font-smoothing: antialiased;
