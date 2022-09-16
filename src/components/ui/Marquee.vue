@@ -22,6 +22,8 @@ export default {
 
         
         require("./img1.jpg"),
+        require("./michi.png"),
+
       ],
     };
   },

@@ -8,7 +8,7 @@
       <img class="mainImage" src="../assets/images/main.jpg" alt="Michi" />
     </div>
   </base-card-2>
-  <base-card>
+  <base-card class="card1">
     <blog-entry
       v-for="entry in entries"
       :key="entry.id"
@@ -51,8 +51,19 @@ export default {
 .mainCard {
   margin: 15px;
 }
-
-
+.card2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card1 {
+    z-index: -1;
+  position:relative;
+  display: inline-flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
 
 .entry {
   max-width: 700px;
@@ -62,7 +73,6 @@ export default {
 
 .info {
   display: inline;
-  
 }
 
 
@@ -73,11 +83,10 @@ export default {
 .newImage {
   border-style: solid;
   border-color: #8e4200;
-  border-width: 10px;
+  border-width: 5px;
   max-width: 250px;
   height: auto;
   display: inline;
-  
 }
 
 .image {
@@ -90,8 +99,26 @@ export default {
   border-style: solid;
   border-color: #8e4200;
   border-width: 10px;
-  
-  
-  
+}
+@media only screen and (max-width: 500px) {
+  .mainContainer {
+    width: 100%;
+    /* border-top:solid; */
+    border-left: none;
+  }
+  .goat {
+    border-right: none;
+    border-bottom: solid;
+  }
+  .image2 {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .profile2 img {
+    border-style: none;
+    border-top:solid;
+    border-bottom: solid;
+    width: 100%;
+  }
 }
 </style>

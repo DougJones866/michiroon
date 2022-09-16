@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed;
   bottom: 0;
   border-top: none 1px;
   background-color: #e0900e;

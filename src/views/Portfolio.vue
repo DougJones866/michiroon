@@ -1,20 +1,19 @@
 <template>
   <h1>Portfolio Stuff</h1>
   <div class="container">
-  <div class="portfolio">
-    <div class="illustrations">
-     <base-card> <h2>Illustrations</h2></base-card>
+    <div class="portfolio">
+      <div class="illustrations">
+        <base-card> <h2>Illustrations</h2></base-card>
+      </div>
+      <div class="comics">
+        <base-card> <h2>Comics</h2></base-card>
+      </div>
+      <div class="commissions">
+        <base-card> <h2>Commissions</h2></base-card>
+      </div>
     </div>
-    <div class="comics">
-     <base-card> <h2>Comics</h2></base-card>
-    </div>
-    <div class="commissions">
-     <base-card> <h2>Commissions</h2></base-card>
-    </div>
+    <!-- <marquee /> -->
   </div>
-  
-  </div>
-  
 </template>
 
 <script>

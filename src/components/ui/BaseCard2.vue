@@ -15,9 +15,7 @@
   border-top-style: solid;
   border-width: 15px;
   border-color: #8e4200;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  
   width: 100%;
 }
 </style>
